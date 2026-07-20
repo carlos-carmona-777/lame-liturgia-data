@@ -1,0 +1,47 @@
+name: Publicar Release del calendario
+
+# Publica un Release nuevo (que "latest" tomará) cada vez que cambian los datos.
+# NO regenera el dataset: eso se hace local con el pipeline (romcal + breviarium),
+# que no va en CI (usa DBs con derechos). El flujo es:
+#   local: node generate.mjs ... && python3 build-hosting-manifest.py
+#          -> copiar calendar-*.json + manifest.json a este repo -> git push
+#   aquí:  este Action arma el Release con esos archivos como assets.
+#
+# También se puede disparar a mano desde la pestaña Actions (workflow_dispatch).
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - manifest.json
+      - "calendar-*.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Leer datasetVersion del manifest
+        id: meta
+        run: echo "version=$(jq -r .datasetVersion manifest.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Crear Release con los calendarios + manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          TAG="${{ steps.meta.outputs.version }}-b${{ github.run_number }}"
+          echo "Publicando $TAG"
+          gh release create "$TAG" \
+            manifest.json calendar-*.json \
+            --title "Calendario ${{ steps.meta.outputs.version }} (build ${{ github.run_number }})" \
+            --notes "Publicado automáticamente al actualizar los datos. 'latest' apunta aquí."
