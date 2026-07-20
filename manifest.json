@@ -1,7 +1,7 @@
 {
-  "schema": 1,
+  "schema": 2,
   "datasetVersion": "2026-2040",
-  "generatedAt": "2026-07-19",
+  "generatedAt": "2026-07-20",
   "coverage": {
     "startYear": 2026,
     "endYear": 2040
@@ -9,32 +9,56 @@
   "baseUrl": "https://github.com/carlos-carmona-777/lame-liturgia-data/releases/latest/download/",
   "calendars": [
     {
-      "id": "mx",
-      "name": "México",
       "file": "calendar-mx.json",
       "bytes": 5609782,
-      "sha256": "60a72a1872a5f7ac72ab9051e4c4a9ab237fe6287823e8062ca13bb29a154f8d",
+      "sha256": "18ac69d9e94330a7304441722e20146288f7f32985f95f8b7c99776f29069ff4",
+      "id": "mx",
+      "name": "México",
+      "default": true,
       "coverage": {
         "startYear": 2026,
         "endYear": 2040
-      },
-      "default": true
+      }
     },
     {
-      "id": "general",
-      "name": "General (Calendario Romano)",
       "file": "calendar-general.json",
       "bytes": 4451183,
-      "sha256": "983e8e317aa9ce2c3e6d31fff97c146bb84245fdf6c56849f10583083143102e",
+      "sha256": "6276de393a9024b26b0833786bc4ffe225567c49e2cfadc9df92a53ac5e8dc68",
+      "id": "general",
+      "name": "General (Calendario Romano)",
+      "default": true,
+      "coverage": {
+        "startYear": 2026,
+        "endYear": 2040
+      }
+    },
+    {
+      "file": "calendar-py.json",
+      "bytes": 4451588,
+      "sha256": "30300f3c39149f53fbd0273c43464e9b3ff58cd7cf9b5c07130863865a0a4d32",
+      "id": "py",
+      "name": "Paraguay",
+      "default": false,
       "coverage": {
         "startYear": 2026,
         "endYear": 2040
       },
-      "default": true
+      "textDelta": [
+        {
+          "file": "readings-py-delta.json",
+          "bytes": 87695,
+          "sha256": "bee94ee6d9f7adbf37f7d69d927b361cec07cd1bfd09d376b1e1c047e008c5ae"
+        },
+        {
+          "file": "hours-py-delta.json",
+          "bytes": 598888,
+          "sha256": "d21c9fba3678f7177b1dcfa195e129ea366ece763403770184df33642224af23"
+        }
+      ]
     }
   ],
   "text": {
-    "note": "El texto litúrgico (hours/readings) se entrega en el bundle del app, no por descarga abierta (derechos CEE). El app compara su cobertura de texto contra 'coverage' para saber si necesita una actualización de app.",
+    "note": "El texto litúrgico CEE compartido va en el bundle del app, no por descarga abierta (derechos). Los paquetes de país (default=false) traen SOLO calendario + un 'textDelta' chico (llaves que ese país usa y no están en el texto empacado).",
     "bundleCoverageTarget": {
       "startYear": 2026,
       "endYear": 2035
