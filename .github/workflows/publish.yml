@@ -16,6 +16,7 @@ on:
     paths:
       - manifest.json
       - "calendar-*.json"
+      - "*-delta.json"
 
 permissions:
   contents: write
@@ -42,6 +43,6 @@ jobs:
           TAG="${{ steps.meta.outputs.version }}-b${{ github.run_number }}"
           echo "Publicando $TAG"
           gh release create "$TAG" \
-            manifest.json calendar-*.json \
+            manifest.json calendar-*.json *-delta.json \
             --title "Calendario ${{ steps.meta.outputs.version }} (build ${{ github.run_number }})" \
             --notes "Publicado automáticamente al actualizar los datos. 'latest' apunta aquí."
