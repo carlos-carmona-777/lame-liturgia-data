@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "datasetVersion": "2026-2040",
+  "generatedAt": "2026-07-19",
+  "coverage": {
+    "startYear": 2026,
+    "endYear": 2040
+  },
+  "baseUrl": "https://github.com/carlos-carmona-777/lame-liturgia-data/releases/latest/download/",
+  "calendars": [
+    {
+      "id": "mx",
+      "name": "México",
+      "file": "calendar-mx.json",
+      "bytes": 5609782,
+      "sha256": "60a72a1872a5f7ac72ab9051e4c4a9ab237fe6287823e8062ca13bb29a154f8d",
+      "coverage": {
+        "startYear": 2026,
+        "endYear": 2040
+      },
+      "default": true
+    },
+    {
+      "id": "general",
+      "name": "General (Calendario Romano)",
+      "file": "calendar-general.json",
+      "bytes": 4451183,
+      "sha256": "983e8e317aa9ce2c3e6d31fff97c146bb84245fdf6c56849f10583083143102e",
+      "coverage": {
+        "startYear": 2026,
+        "endYear": 2040
+      },
+      "default": true
+    }
+  ],
+  "text": {
+    "note": "El texto litúrgico (hours/readings) se entrega en el bundle del app, no por descarga abierta (derechos CEE). El app compara su cobertura de texto contra 'coverage' para saber si necesita una actualización de app.",
+    "bundleCoverageTarget": {
+      "startYear": 2026,
+      "endYear": 2035
+    }
+  }
+}
