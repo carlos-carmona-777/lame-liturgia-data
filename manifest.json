@@ -11,7 +11,7 @@
     {
       "file": "calendar-mx.json",
       "bytes": 5609782,
-      "sha256": "18ac69d9e94330a7304441722e20146288f7f32985f95f8b7c99776f29069ff4",
+      "sha256": "9c9a539276a69c861ea797f533374894777f13cf3b36e58b2ecd08cb698ba27e",
       "id": "mx",
       "name": "México",
       "default": true,
@@ -23,7 +23,7 @@
     {
       "file": "calendar-general.json",
       "bytes": 4451183,
-      "sha256": "6276de393a9024b26b0833786bc4ffe225567c49e2cfadc9df92a53ac5e8dc68",
+      "sha256": "82f5dfb82b0645e7af9288e5f03274d79e07f950b5622f19843895b5d63c8fcf",
       "id": "general",
       "name": "General (Calendario Romano)",
       "default": true,
@@ -34,8 +34,8 @@
     },
     {
       "file": "calendar-py.json",
-      "bytes": 4451588,
-      "sha256": "30300f3c39149f53fbd0273c43464e9b3ff58cd7cf9b5c07130863865a0a4d32",
+      "bytes": 4455964,
+      "sha256": "f8ca69c45a93d0add711ae38a9246b4d230bcd02ea9afc27eeb70adabd3e4400",
       "id": "py",
       "name": "Paraguay",
       "default": false,
@@ -46,13 +46,13 @@
       "textDelta": [
         {
           "file": "readings-py-delta.json",
-          "bytes": 87695,
-          "sha256": "bee94ee6d9f7adbf37f7d69d927b361cec07cd1bfd09d376b1e1c047e008c5ae"
+          "bytes": 25566,
+          "sha256": "1e4762101c4289830b01f702fe8e3a8808c6c5e89c6fa9c9b3ef3d55e2e63caa"
         },
         {
           "file": "hours-py-delta.json",
-          "bytes": 598888,
-          "sha256": "d21c9fba3678f7177b1dcfa195e129ea366ece763403770184df33642224af23"
+          "bytes": 463764,
+          "sha256": "ba8d33596c9fd7edb0930e317612edcbc4a532001959b09d993b356e2b42e33a"
         }
       ]
     }
