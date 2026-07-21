@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "datasetVersion": "2026-2040",
-  "generatedAt": "2026-07-20",
+  "generatedAt": "2026-07-21",
   "coverage": {
     "startYear": 2026,
     "endYear": 2040
@@ -11,7 +11,7 @@
     {
       "file": "calendar-mx.json",
       "bytes": 5609782,
-      "sha256": "9c9a539276a69c861ea797f533374894777f13cf3b36e58b2ecd08cb698ba27e",
+      "sha256": "60a72a1872a5f7ac72ab9051e4c4a9ab237fe6287823e8062ca13bb29a154f8d",
       "id": "mx",
       "name": "México",
       "default": true,
@@ -23,7 +23,7 @@
     {
       "file": "calendar-general.json",
       "bytes": 4451183,
-      "sha256": "82f5dfb82b0645e7af9288e5f03274d79e07f950b5622f19843895b5d63c8fcf",
+      "sha256": "983e8e317aa9ce2c3e6d31fff97c146bb84245fdf6c56849f10583083143102e",
       "id": "general",
       "name": "General (Calendario Romano)",
       "default": true,
@@ -53,6 +53,30 @@
           "file": "hours-py-delta.json",
           "bytes": 463764,
           "sha256": "ba8d33596c9fd7edb0930e317612edcbc4a532001959b09d993b356e2b42e33a"
+        }
+      ]
+    },
+    {
+      "file": "calendar-es.json",
+      "bytes": 5654066,
+      "sha256": "a6545870781618999b657c4b504927713f7ba2e6ca27a63ea0311e696c3e53e3",
+      "id": "es",
+      "name": "España",
+      "default": false,
+      "coverage": {
+        "startYear": 2026,
+        "endYear": 2040
+      },
+      "textDelta": [
+        {
+          "file": "readings-es-delta.json",
+          "bytes": 522037,
+          "sha256": "0053c7d5b7378dc02cd695cc838b19432970b86eb420ab799aab6275989901f3"
+        },
+        {
+          "file": "hours-es-delta.json",
+          "bytes": 6312660,
+          "sha256": "939ed73bb7406e66e55bcbd5000f36dcedbfb49e2eef96213d2b866cbffe3c26"
         }
       ]
     }
