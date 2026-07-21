@@ -89,6 +89,35 @@
           "sha256": "7a78e7f0a961ccf50accb4272ec7db46100d6bb441996656bb52a9c14031474f"
         }
       ]
+    },
+    {
+      "file": "calendar-pe.json",
+      "bytes": 4466716,
+      "sha256": "0abade679dad9c511b47b2b5681442b682967c856e026b0de9d1c064fedb7c9c",
+      "id": "pe",
+      "name": "Perú",
+      "default": false,
+      "coverage": {
+        "startYear": 2026,
+        "endYear": 2040
+      },
+      "textDelta": [
+        {
+          "file": "readings-pe-delta.json",
+          "bytes": 575854,
+          "sha256": "ff81c15018f3da0868348976d293de5ec14d4b3d4fe0f1765726388df87c921c"
+        },
+        {
+          "file": "hours-pe-delta.json",
+          "bytes": 3393893,
+          "sha256": "bd8270feaccadf523195417983c96af0fe8e057d7ad60c971795e5760743eb6c"
+        },
+        {
+          "file": "readings_widget-pe-delta.json",
+          "bytes": 82246,
+          "sha256": "10cc6af0ef62c73819ee4106d81e8f587db2785f12527ac0be465eb0675c4b21"
+        }
+      ]
     }
   ],
   "text": {
