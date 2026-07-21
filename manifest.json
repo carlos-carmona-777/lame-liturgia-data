@@ -53,6 +53,11 @@
           "file": "hours-py-delta.json",
           "bytes": 463764,
           "sha256": "ba8d33596c9fd7edb0930e317612edcbc4a532001959b09d993b356e2b42e33a"
+        },
+        {
+          "file": "readings_widget-py-delta.json",
+          "bytes": 6334,
+          "sha256": "080bdadeb64ca86bfe9d421493640d5770e19209f15cdb878c8e172da9649b6e"
         }
       ]
     },
@@ -77,6 +82,11 @@
           "file": "hours-es-delta.json",
           "bytes": 6312660,
           "sha256": "939ed73bb7406e66e55bcbd5000f36dcedbfb49e2eef96213d2b866cbffe3c26"
+        },
+        {
+          "file": "readings_widget-es-delta.json",
+          "bytes": 123938,
+          "sha256": "7a78e7f0a961ccf50accb4272ec7db46100d6bb441996656bb52a9c14031474f"
         }
       ]
     }
