@@ -104,8 +104,8 @@
       "textDelta": [
         {
           "file": "readings-pe-delta.json",
-          "bytes": 503561,
-          "sha256": "99f7d52d3d171513fa1fba639ace48ec8660329b8b47e158391d83c31c33fbd8"
+          "bytes": 504155,
+          "sha256": "e3e0d1ae9880e583e41e8ed74592452e817fa72ce124d3df5d88d3b2196da609"
         },
         {
           "file": "hours-pe-delta.json",
@@ -114,8 +114,8 @@
         },
         {
           "file": "readings_widget-pe-delta.json",
-          "bytes": 74989,
-          "sha256": "803981c327bac576d7044d47c0e93c16842060734bda09e81c6da167e37e1084"
+          "bytes": 75583,
+          "sha256": "9b716e48812f40e898f7eab546e73b9ba250bae2dbc5277f8472feb6e5a40696"
         }
       ]
     }
