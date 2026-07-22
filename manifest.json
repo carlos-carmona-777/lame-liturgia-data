@@ -1,121 +1,121 @@
 {
   "schema": 2,
-  "datasetVersion": "2026-2040",
+  "datasetVersion": "2026-2032",
   "generatedAt": "2026-07-21",
   "coverage": {
     "startYear": 2026,
-    "endYear": 2040
+    "endYear": 2032
   },
   "baseUrl": "https://github.com/carlos-carmona-777/lame-liturgia-data/releases/latest/download/",
   "calendars": [
     {
       "file": "calendar-mx.json",
-      "bytes": 5609782,
-      "sha256": "60a72a1872a5f7ac72ab9051e4c4a9ab237fe6287823e8062ca13bb29a154f8d",
+      "bytes": 1840323,
+      "sha256": "15136844ea517026d20cd6c06c0e4d633f55078420ac0bdb8ade28e6b7b66bcd",
       "id": "mx",
       "name": "México",
       "default": true,
       "coverage": {
         "startYear": 2026,
-        "endYear": 2040
+        "endYear": 2032
       }
     },
     {
       "file": "calendar-general.json",
-      "bytes": 4451183,
-      "sha256": "983e8e317aa9ce2c3e6d31fff97c146bb84245fdf6c56849f10583083143102e",
+      "bytes": 1816609,
+      "sha256": "7e4b4ec41c96940984b3daa5cc5905df5dff121747f802137c3cacf171038c48",
       "id": "general",
       "name": "General (Calendario Romano)",
       "default": true,
       "coverage": {
         "startYear": 2026,
-        "endYear": 2040
+        "endYear": 2032
       }
     },
     {
       "file": "calendar-py.json",
-      "bytes": 4455964,
-      "sha256": "f8ca69c45a93d0add711ae38a9246b4d230bcd02ea9afc27eeb70adabd3e4400",
+      "bytes": 1818646,
+      "sha256": "e5c9df693cb66871bef3347bd3f7df92977f0bab0487f9943068bd90bb1dc5e9",
       "id": "py",
       "name": "Paraguay",
       "default": false,
       "coverage": {
         "startYear": 2026,
-        "endYear": 2040
+        "endYear": 2032
       },
       "textDelta": [
         {
           "file": "readings-py-delta.json",
-          "bytes": 25566,
-          "sha256": "1e4762101c4289830b01f702fe8e3a8808c6c5e89c6fa9c9b3ef3d55e2e63caa"
+          "bytes": 14457,
+          "sha256": "94523aaa776ba8c6405e0127e8ef7a1147260eddda773cb91395c445c2854103"
         },
         {
           "file": "hours-py-delta.json",
-          "bytes": 463764,
-          "sha256": "ba8d33596c9fd7edb0930e317612edcbc4a532001959b09d993b356e2b42e33a"
+          "bytes": 259615,
+          "sha256": "69f0435b90ed4fd7077d527ac6014ead90df84cde8e11084ed2e550c5541537d"
         },
         {
           "file": "readings_widget-py-delta.json",
-          "bytes": 6334,
-          "sha256": "080bdadeb64ca86bfe9d421493640d5770e19209f15cdb878c8e172da9649b6e"
+          "bytes": 3363,
+          "sha256": "a7d64dfca88872e4e606df0ea04c3fcf6bb1e6c496e5b4b5a74e3c880f693c33"
         }
       ]
     },
     {
       "file": "calendar-es.json",
-      "bytes": 5654066,
-      "sha256": "a6545870781618999b657c4b504927713f7ba2e6ca27a63ea0311e696c3e53e3",
+      "bytes": 2380091,
+      "sha256": "919eda24fdce9fbf68ad5ebce2b492671849af0bb04cafd2ce189f923021a9ad",
       "id": "es",
       "name": "España",
       "default": false,
       "coverage": {
         "startYear": 2026,
-        "endYear": 2040
+        "endYear": 2032
       },
       "textDelta": [
         {
           "file": "readings-es-delta.json",
-          "bytes": 522037,
-          "sha256": "0053c7d5b7378dc02cd695cc838b19432970b86eb420ab799aab6275989901f3"
+          "bytes": 359778,
+          "sha256": "4cfdf3fb497777599837905aff98072dc48f3b86f61d311200157e49cd59709a"
         },
         {
           "file": "hours-es-delta.json",
-          "bytes": 6312660,
-          "sha256": "939ed73bb7406e66e55bcbd5000f36dcedbfb49e2eef96213d2b866cbffe3c26"
+          "bytes": 3829361,
+          "sha256": "f719349014ed6d38e69b411b0a506a39cb1b0dd850145d93cc886e26da039b05"
         },
         {
           "file": "readings_widget-es-delta.json",
-          "bytes": 123938,
-          "sha256": "7a78e7f0a961ccf50accb4272ec7db46100d6bb441996656bb52a9c14031474f"
+          "bytes": 80317,
+          "sha256": "e122a66c47af7fdc105b36c3a1abf556b2e9c1a28aa44e59f12ff8221563061d"
         }
       ]
     },
     {
       "file": "calendar-pe.json",
-      "bytes": 4466716,
-      "sha256": "0abade679dad9c511b47b2b5681442b682967c856e026b0de9d1c064fedb7c9c",
+      "bytes": 1824258,
+      "sha256": "4c802642415a737d2d799f1b84eb703c58e0faea86111220b0d141e8e6f83574",
       "id": "pe",
       "name": "Perú",
       "default": false,
       "coverage": {
         "startYear": 2026,
-        "endYear": 2040
+        "endYear": 2032
       },
       "textDelta": [
         {
           "file": "readings-pe-delta.json",
-          "bytes": 504155,
-          "sha256": "e3e0d1ae9880e583e41e8ed74592452e817fa72ce124d3df5d88d3b2196da609"
+          "bytes": 342542,
+          "sha256": "fe4dd479e617f575e74dda5ff47d48238a0a6c721711718002a7823be48e9397"
         },
         {
           "file": "hours-pe-delta.json",
-          "bytes": 3597323,
-          "sha256": "12db805e533a970ec01978a067415b17f971731d1196f8bc6a2b987bebc5b076"
+          "bytes": 2105941,
+          "sha256": "4e59a6c0536c31995c90bb43467a4ac8212f7be2a934bed090790291b0629798"
         },
         {
           "file": "readings_widget-pe-delta.json",
-          "bytes": 75583,
-          "sha256": "9b716e48812f40e898f7eab546e73b9ba250bae2dbc5277f8472feb6e5a40696"
+          "bytes": 49270,
+          "sha256": "2050866f37cc011db52f818a42fdca75e50c0f33002590234d6d3e926fd4672d"
         }
       ]
     }
@@ -124,7 +124,7 @@
     "note": "El texto litúrgico CEE compartido va en el bundle del app, no por descarga abierta (derechos). Los paquetes de país (default=false) traen SOLO calendario + un 'textDelta' chico (llaves que ese país usa y no están en el texto empacado).",
     "bundleCoverageTarget": {
       "startYear": 2026,
-      "endYear": 2035
+      "endYear": 2032
     }
   }
 }
