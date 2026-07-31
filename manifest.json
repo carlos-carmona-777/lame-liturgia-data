@@ -1,121 +1,121 @@
 {
   "schema": 2,
-  "datasetVersion": "2026-2032",
-  "generatedAt": "2026-07-21",
+  "datasetVersion": "2025-2029",
+  "generatedAt": "2026-07-31",
   "coverage": {
-    "startYear": 2026,
-    "endYear": 2032
+    "startYear": 2025,
+    "endYear": 2029
   },
   "baseUrl": "https://github.com/carlos-carmona-777/lame-liturgia-data/releases/latest/download/",
   "calendars": [
     {
       "file": "calendar-mx.json",
-      "bytes": 1840323,
-      "sha256": "15136844ea517026d20cd6c06c0e4d633f55078420ac0bdb8ade28e6b7b66bcd",
+      "bytes": 1267012,
+      "sha256": "2061494d1d9e74a90fb6c5f9e1426759122d2e12e156a42d34538e7a61507aa5",
       "id": "mx",
       "name": "México",
       "default": true,
       "coverage": {
-        "startYear": 2026,
-        "endYear": 2032
+        "startYear": 2025,
+        "endYear": 2029
       }
     },
     {
       "file": "calendar-general.json",
-      "bytes": 1816609,
-      "sha256": "7e4b4ec41c96940984b3daa5cc5905df5dff121747f802137c3cacf171038c48",
+      "bytes": 1249427,
+      "sha256": "c71856fdf460bdb1af2bf275e8cd2e6e0371798a6a728c4697d7896e77c60973",
       "id": "general",
       "name": "General (Calendario Romano)",
       "default": true,
       "coverage": {
-        "startYear": 2026,
-        "endYear": 2032
+        "startYear": 2025,
+        "endYear": 2029
       }
     },
     {
       "file": "calendar-py.json",
-      "bytes": 1818646,
-      "sha256": "e5c9df693cb66871bef3347bd3f7df92977f0bab0487f9943068bd90bb1dc5e9",
+      "bytes": 1251502,
+      "sha256": "ecf55ffcec1544ade3d448b3e39555a1620d76f987fce7250d60de7795611325",
       "id": "py",
       "name": "Paraguay",
       "default": false,
       "coverage": {
-        "startYear": 2026,
-        "endYear": 2032
+        "startYear": 2025,
+        "endYear": 2029
       },
       "textDelta": [
         {
           "file": "readings-py-delta.json",
-          "bytes": 14457,
-          "sha256": "94523aaa776ba8c6405e0127e8ef7a1147260eddda773cb91395c445c2854103"
+          "bytes": 11246,
+          "sha256": "ee9f45ebf0aeeccf1f2727c433cd472ee3ac995ca90c563ee800665d99c7566b"
         },
         {
           "file": "hours-py-delta.json",
-          "bytes": 259615,
-          "sha256": "69f0435b90ed4fd7077d527ac6014ead90df84cde8e11084ed2e550c5541537d"
+          "bytes": 203613,
+          "sha256": "8c92dd11529f70849cf0ae7d9226a16fbb129706a0fb7e79cdb83648199f4e7c"
         },
         {
           "file": "readings_widget-py-delta.json",
-          "bytes": 3363,
-          "sha256": "a7d64dfca88872e4e606df0ea04c3fcf6bb1e6c496e5b4b5a74e3c880f693c33"
+          "bytes": 2638,
+          "sha256": "1a662b275b4ea24eae000775e0751122f47e8fe9a2ffdaaba27f1b5013947b13"
         }
       ]
     },
     {
       "file": "calendar-es.json",
-      "bytes": 2380091,
-      "sha256": "919eda24fdce9fbf68ad5ebce2b492671849af0bb04cafd2ce189f923021a9ad",
+      "bytes": 1630157,
+      "sha256": "8cae9c273caa80dc89984faaccfba141ca37e52c9476129ed97f9f6cda9538c3",
       "id": "es",
       "name": "España",
       "default": false,
       "coverage": {
-        "startYear": 2026,
-        "endYear": 2032
+        "startYear": 2025,
+        "endYear": 2029
       },
       "textDelta": [
         {
           "file": "readings-es-delta.json",
-          "bytes": 359778,
-          "sha256": "4cfdf3fb497777599837905aff98072dc48f3b86f61d311200157e49cd59709a"
+          "bytes": 257158,
+          "sha256": "fe69c20a5daae919df17ee71f139e88b9a989e2a41292cc06b945a970bc0b388"
         },
         {
           "file": "hours-es-delta.json",
-          "bytes": 3829361,
-          "sha256": "f719349014ed6d38e69b411b0a506a39cb1b0dd850145d93cc886e26da039b05"
+          "bytes": 2707791,
+          "sha256": "02a31c8e96f96f2372e748936b0fac4aed825e53d58b08a3471a217643412b84"
         },
         {
           "file": "readings_widget-es-delta.json",
-          "bytes": 80317,
-          "sha256": "e122a66c47af7fdc105b36c3a1abf556b2e9c1a28aa44e59f12ff8221563061d"
+          "bytes": 56813,
+          "sha256": "a7ab52536ec43b8ff62867804dd31ded5053d05c3ce0f82704e9fee6089e7443"
         }
       ]
     },
     {
       "file": "calendar-pe.json",
-      "bytes": 1824258,
-      "sha256": "4c802642415a737d2d799f1b84eb703c58e0faea86111220b0d141e8e6f83574",
+      "bytes": 1256165,
+      "sha256": "eac81f1c74bfcecc7dc748a6a3909e42aff628d762723756158cea61ae0ff83f",
       "id": "pe",
       "name": "Perú",
       "default": false,
       "coverage": {
-        "startYear": 2026,
-        "endYear": 2032
+        "startYear": 2025,
+        "endYear": 2029
       },
       "textDelta": [
         {
           "file": "readings-pe-delta.json",
-          "bytes": 342542,
-          "sha256": "fe4dd479e617f575e74dda5ff47d48238a0a6c721711718002a7823be48e9397"
+          "bytes": 277562,
+          "sha256": "474537cdbca9c054d75af75c96682106afe5b08c9e94fdb6574b51c1c799760b"
         },
         {
           "file": "hours-pe-delta.json",
-          "bytes": 2105941,
-          "sha256": "4e59a6c0536c31995c90bb43467a4ac8212f7be2a934bed090790291b0629798"
+          "bytes": 1797291,
+          "sha256": "298a72281216f9479e3d6e0829a41f8550168332f1364c195762bf49927543d7"
         },
         {
           "file": "readings_widget-pe-delta.json",
-          "bytes": 49270,
-          "sha256": "2050866f37cc011db52f818a42fdca75e50c0f33002590234d6d3e926fd4672d"
+          "bytes": 40136,
+          "sha256": "ec65432672dc9204fe06f56bbdd2339d21c5e321e9e0d775f4ba9baaae3c0918"
         }
       ]
     }
