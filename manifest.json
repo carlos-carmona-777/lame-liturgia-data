@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "datasetVersion": "2025-2029",
-  "generatedAt": "2026-07-31",
+  "generatedAt": "2026-08-04",
   "coverage": {
     "startYear": 2025,
     "endYear": 2029
@@ -10,8 +10,8 @@
   "calendars": [
     {
       "file": "calendar-mx.json",
-      "bytes": 1267012,
-      "sha256": "2061494d1d9e74a90fb6c5f9e1426759122d2e12e156a42d34538e7a61507aa5",
+      "bytes": 1267016,
+      "sha256": "72d4760f9dd63661597e9b52edf5c714443bd72f1880c40b0354edadc7ff8b0b",
       "id": "mx",
       "name": "México",
       "default": true,
@@ -22,8 +22,8 @@
     },
     {
       "file": "calendar-general.json",
-      "bytes": 1249427,
-      "sha256": "c71856fdf460bdb1af2bf275e8cd2e6e0371798a6a728c4697d7896e77c60973",
+      "bytes": 1249431,
+      "sha256": "52efe2166255dceaeec1b17485f1804e6a5e2957afd1077448a8664eecdd4797",
       "id": "general",
       "name": "General (Calendario Romano)",
       "default": true,
@@ -34,8 +34,8 @@
     },
     {
       "file": "calendar-py.json",
-      "bytes": 1251502,
-      "sha256": "ecf55ffcec1544ade3d448b3e39555a1620d76f987fce7250d60de7795611325",
+      "bytes": 1251506,
+      "sha256": "009b300eb72d9d910fff7401bf217eac06d39903180ee3ce476d2de06ccd72bd",
       "id": "py",
       "name": "Paraguay",
       "default": false,
@@ -63,8 +63,8 @@
     },
     {
       "file": "calendar-es.json",
-      "bytes": 1630157,
-      "sha256": "8cae9c273caa80dc89984faaccfba141ca37e52c9476129ed97f9f6cda9538c3",
+      "bytes": 1630161,
+      "sha256": "5bc26fb718919152804b13f84ee9e0518d73d84512900198def3604ac6fe4d19",
       "id": "es",
       "name": "España",
       "default": false,
@@ -92,8 +92,8 @@
     },
     {
       "file": "calendar-pe.json",
-      "bytes": 1256165,
-      "sha256": "eac81f1c74bfcecc7dc748a6a3909e42aff628d762723756158cea61ae0ff83f",
+      "bytes": 1256169,
+      "sha256": "9fdb824d8d51892a52fb7e8adfe248b8e164e0bdaedc785f3dc4d1c03a398aaf",
       "id": "pe",
       "name": "Perú",
       "default": false,
