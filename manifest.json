@@ -109,8 +109,8 @@
         },
         {
           "file": "hours-pe-delta.json",
-          "bytes": 1797291,
-          "sha256": "298a72281216f9479e3d6e0829a41f8550168332f1364c195762bf49927543d7"
+          "bytes": 1797391,
+          "sha256": "0af78b5aaffba9b6b31c27dce1d6806be715d5bc610383ec3ba9a8e1132ce013"
         },
         {
           "file": "readings_widget-pe-delta.json",
