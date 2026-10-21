@@ -46,8 +46,8 @@
       "textDelta": [
         {
           "file": "readings-py-delta.json",
-          "bytes": 11246,
-          "sha256": "ee9f45ebf0aeeccf1f2727c433cd472ee3ac995ca90c563ee800665d99c7566b"
+          "bytes": 11248,
+          "sha256": "9d67cc69979b1241f53a2cb9a0d91fea66e99a4f2b3322b3c9abbbafa3e3c755"
         },
         {
           "file": "hours-py-delta.json",
@@ -75,8 +75,8 @@
       "textDelta": [
         {
           "file": "readings-es-delta.json",
-          "bytes": 257158,
-          "sha256": "fe69c20a5daae919df17ee71f139e88b9a989e2a41292cc06b945a970bc0b388"
+          "bytes": 257149,
+          "sha256": "bead41227a459decbf1594114e9ef9aa728c0472f6d37bd5e9dbbfd486f462e6"
         },
         {
           "file": "hours-es-delta.json",
@@ -85,8 +85,8 @@
         },
         {
           "file": "readings_widget-es-delta.json",
-          "bytes": 56813,
-          "sha256": "a7ab52536ec43b8ff62867804dd31ded5053d05c3ce0f82704e9fee6089e7443"
+          "bytes": 56812,
+          "sha256": "4cb60f99ae885c0530a40e4f50dd4fa787a034fb34de4e3bf46d2508a9b962ba"
         }
       ]
     },
@@ -104,8 +104,8 @@
       "textDelta": [
         {
           "file": "readings-pe-delta.json",
-          "bytes": 277562,
-          "sha256": "474537cdbca9c054d75af75c96682106afe5b08c9e94fdb6574b51c1c799760b"
+          "bytes": 277545,
+          "sha256": "7259c9ab80c9fc618fa01930de1dc3dc4c5d7a3e88aca965cbd939ddb61d192c"
         },
         {
           "file": "hours-pe-delta.json",
@@ -114,8 +114,8 @@
         },
         {
           "file": "readings_widget-pe-delta.json",
-          "bytes": 40136,
-          "sha256": "ec65432672dc9204fe06f56bbdd2339d21c5e321e9e0d775f4ba9baaae3c0918"
+          "bytes": 40129,
+          "sha256": "2cbf65ed6a67cb94568a9c25949fcf7b07eb8a8100112961e244e026b69fb1ea"
         }
       ]
     }
