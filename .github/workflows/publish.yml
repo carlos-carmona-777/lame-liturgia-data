@@ -31,6 +31,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Antes de crear el Release: todo archivo que el manifest promete existe, con
+      # el tamaño y el sha256 que dice, nombre seguro para un Release y cubierto
+      # por los globs del upload. Un calendario o delta que no cuadra es una
+      # descarga que las apps rechazan (auditoría OTA 2026-10-21, hallazgo 9).
+      - name: Validar manifest contra los archivos
+        run: |
+          python3 - <<'PY'
+          import fnmatch, hashlib, json, os, re, sys
+          m = json.load(open("manifest.json"))
+          globs = ["calendar-*.json", "*-delta.json"]
+          errores = []
+          for cal in m.get("calendars", []):
+              for a in [cal] + list(cal.get("textDelta", [])):
+                  f = a["file"]
+                  if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", f):
+                      errores.append(f"{f}: nombre que no sobrevive a un Release")
+                  if not any(fnmatch.fnmatch(f, g) for g in globs):
+                      errores.append(f"{f}: no lo cubre ningún glob del upload")
+                  if not os.path.isfile(f):
+                      errores.append(f"{f}: falta en el repo")
+                      continue
+                  data = open(f, "rb").read()
+                  if len(data) != a["bytes"]:
+                      errores.append(f"{f}: {len(data)} bytes, el manifest dice {a['bytes']}")
+                  if hashlib.sha256(data).hexdigest() != a["sha256"]:
+                      errores.append(f"{f}: sha256 distinto al del manifest")
+          if errores:
+              print("El manifest no cuadra con los archivos:\n  " + "\n  ".join(errores))
+              sys.exit(1)
+          print(f"manifest OK: {len(m.get('calendars', []))} calendarios y sus deltas cuadran")
+          PY
+
       - name: Leer datasetVersion del manifest
         id: meta
         run: echo "version=$(jq -r .datasetVersion manifest.json)" >> "$GITHUB_OUTPUT"
